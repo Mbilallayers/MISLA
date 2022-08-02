@@ -1,0 +1,155 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px){}@media only screen and (min-width: 768px) and (max-width: 991px){.navbar-nav li:last-child a {display: none}.mainmenu .navbar-nav li a{font-size:10px;padding:30px 10px}.menu-bg .mainmenu .navbar-nav li a{padding:20px 10px}.logo{float:none;text-align:center}.menu-bg .logo{padding-top:15px}.play-video{margin-left:-63px}.work_info{top:35px}}@media only screen and (max-width: 767px){.navbar-toggle .icon-bar{background:#f8f8f8}.menu-bg .navbar-toggle .icon-bar{background:#3ac4fa}.navbar-toggle{margin-right:0px;margin-top:-30px}.navbar{min-height:0px}.mainmenu .navbar-nav li a{padding:11px 15px}.menu-bg .mainmenu .navbar-nav li a{padding:11px 15px}.navbar-toggle{margin-top:-58px}.navbar-collapse{background:#213253}.menu-bg .navbar-collapse{background:#1f3051}.single-slide-item h2{font-size:24px;line-height:26px}a.slide-btn{font-size:14px;padding:8px 16px;width:120px}.welcome-control{display:none}.single-slide-item p{margin-bottom:5px}.section-title h2{font-size:20px}.start_project>p{padding:0 20px 0 0}.great-started-text h4{font-size:15px}ul.work li{margin:2px 0 5px;padding:8px 10px}.work_info{top:30%}.item_info h2{font-size:18px;line-height:23px}.single-post-content h4>a{font-size:16px}.contact-from button{padding:10px 20px}.footer-social{margin-top:30px}.play-video{margin-left:-43px}.single-service-box{padding:20px}.video-container h2{font-size:24px;line-height:24px}.single-testimonial p{padding:0 10px}.single-contact-detail>p{font-size:12px}.footer-text.text-center.pull-left{float:none !important;text-align:center}.footer-social{float:none !important;text-align:center}.footer-social li a{height:40px;line-height:40px;width:40px}.scrollup{bottom:83px}}@media only screen and (min-width: 480px) and (max-width: 767px){.play-video{margin-left:-55px}.work_info{top:43%}
+
+.single-price-box {
+    border: 5px solid #ddd;
+    transition: background 0.5s ease 0s;
+    margin-top: 30px
+}
+
+.single-price-box:hover, .single-price-box.active {
+    border-color: #f37425;
+    box-shadow: 0 0 10px 1px rgba(76, 76, 76, 0.41);
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+.package-title {
+    background: #f7f7f7;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #345
+}
+
+.package-value {
+    background: #f37425;
+    padding: 12px
+}
+
+.special {
+    position: relative
+}
+
+.special:before {
+    background: #243444 none repeat scroll 0 0;
+    color: #fff;
+    content: "special";
+    font-size: 12px;
+    margin-right: 0;
+    padding: 2px;
+    position: absolute;
+    right: 0;
+    text-transform: capitalize;
+    top: 0
+}
+
+.package-price {
+    color: #eee;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px
+}
+
+.plan-month {
+    color: #eee
+}
+
+.package-price sub {
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    top: -10px
+}
+
+.plan-month span {
+    font-size: 16px;
+    text-transform: capitalize
+}
+
+.package-detail {
+    background: #f7f7f7 none repeat scroll 0 0;
+    padding: 15px 25px 25px;
+}
+
+.qr-donate {
+    margin-top: 10px;
+}
+
+.package-detail input[name=submit] {
+    cursor: pointer
+}
+
+.package-detail li {
+    border-bottom: 1px solid #d1d1d1;
+    color: #333;
+    padding: 15px 0
+}
+
+.package-detail ul.list-unstyled {
+    margin-bottom: 30px
+}
+
+.package-btn {
+    background: #f37425;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 20px;
+    text-transform: uppercase
+}
+
+.package-btn:focus {
+    color: #fff
+}
+
+.package-btn:hover {
+    background: rgba(255, 147, 0, 0.33) !important;
+    color: #fff !important;
+    transition: .5s;
+    -webkit-transition: .5s
+}
+
+.section-title {
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.section-title h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 35px;
+    position: relative
+}
+
+.section-title h2:after {
+    background: #f37425;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -75px;
+    position: absolute;
+    top: 54px;
+    width: 150px
+}
+
+.section-title h2:before {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #f37425;
+    border-radius: 50%;
+    content: "";
+    height: 10px;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    top: 50px;
+    width: 10px;
+    z-index: 1
+}
+
+.section-padding {
+    padding: 80px 0
+}
+

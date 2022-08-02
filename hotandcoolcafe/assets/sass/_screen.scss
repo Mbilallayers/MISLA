@@ -1,0 +1,222 @@
+/*
+==========================
+    Media Queries
+==========================
+*/
+
+
+@media (max-width: 1200px) {
+  .right-side-juice {
+    max-width: 120px;
+  }
+  .berry-white-sub br {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  #qodef-back-to-top {
+    display: none!important;
+  }
+  .marty-cap {
+    position: relative;
+    top: 0;
+  }
+  .hc-center-logo{
+    top: 40px;
+    right: -185px;
+  }
+  .hc-center-logo img{
+    max-width: 290px;
+  }
+
+  .hc-navbar .navbar-nav .order-button {
+    margin-left: 0px;
+    padding: 10px 0 10px 45px;
+    width: 160px;
+  }
+  .hc-navbar .navbar-nav {
+    margin-left: 0;
+    align-items: baseline;
+  }
+  .hc-navbar .navbar-brand img {
+    max-height: 33px;
+    padding-left: 0;
+  }
+  .hc-navbar {
+    padding: 1rem;
+    margin: 0;
+    background-color: #133419;
+  }
+  .hc-navbar .navbar-nav .nav-item a {
+    padding-left: 0;
+  }
+  .section-heading {
+    background-size: cover!important;
+    font-size: 36px;
+    padding: 10px
+  }
+  .right-side-juice {
+    top: 30%;
+    max-width: 80px;
+  }
+  .para2 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .time-heading {
+    font-size: 28px;
+  }
+  .hc-orange-heading {
+    font-size: 36px;
+  }
+  .pro-carousel .item,.para2,.time-heading {
+    padding: 0 15px;
+  }
+  .heading-middle {
+    top: -35px;
+    left: auto;
+    width: 690px;
+  }
+  .berry-white-sub {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .donate-button {
+    top: -20px;
+    right: 50px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .hc-footer-left,.hc-footer-right {
+    width: 100%;
+  }
+  .team-marty li h5 {
+    font-size: 16pt;
+    margin-top: 5px;
+  }
+  .hc-footer-right-l {
+    width: 220px;
+    display: inline-block;
+    padding-right: 0px;
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  .hc-footer-right {
+    display: block;
+    padding: 15px;
+    text-align: center;
+  }
+  .team-marty li p {
+    font-size: 14px;
+  }
+  .pr-sm-0 {
+    padding-right: 15px;
+  }
+  .mb-custom {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .hc-footer-right {
+    font-size: 14px;
+  }
+  .team-marty li img {
+    width: 200px;
+  }
+  .team-marty li {
+    margin-bottom: 20px;
+  }
+  .hc-footer {
+    display: block;
+  }
+  .hc-footer-right {
+    padding: 40px 0;
+  }
+  .home-section {
+    padding-top: 30px;
+  }
+
+  .voting-heading{
+    font-size: 24pt;
+    text-align: center;
+  }
+  .heading-middle {
+    width: 100%;
+    left: 0;
+  }
+  .hc-center-logo {
+    position: relative;
+    text-align: center;
+    top: auto;
+    right: auto;
+    padding: 20px;
+  }
+  .hc-center-logo img{
+    max-width: 100%;
+  }
+  .h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .para1 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .slick-prev {
+    left: 25px;
+  }
+  .slick-next {
+    right: 25px;
+  }
+  .pro-carousel h4 {
+    padding: 8px 20px;
+  }
+  .mb-sm-mob {
+    margin-bottom: 40px;
+  }
+  .mt-sm-mob {
+    margin-top: 40px;
+  }
+  .pt100 {
+    padding-top: 50px;
+  }
+  .checkout-section {
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 576px) {
+  .btn-insta ,.btn-learn-more, .btn-place-ordered, .btn-place-ordered2, .btn-place-ordered3, .btn-learn-more:focus, .btn-place-ordered:focus, .btn-place-ordered2:focus, .btn-place-ordered3:focus {
+    width: 265px;
+  }
+
+  .right-side-juice {
+    top: 40%;
+    max-width: 50px;
+  }
+  .berry-white-sub {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .para2 br {
+    display: none;
+  }
+  .donate-button {
+    top: -10px;
+    right: 70px;
+  }
+  .gothic-heading {
+    font-size: 20pt;
+  }
+  .pt-20 {
+    margin-top: 0;
+  }
+  .gothic-regular {
+    font-size: 16pt;
+  }
+  .donate-button img {
+    max-height: 90px;
+  }
+}

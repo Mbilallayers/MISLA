@@ -1,0 +1,14 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "Project html",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "food"
+  ],
+  "author": "bilal",
+  "license": "ISC"
+}

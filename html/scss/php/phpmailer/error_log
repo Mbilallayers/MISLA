@@ -1,0 +1,32 @@
+[24-Oct-2021 01:20:36 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[24-Oct-2021 01:20:36 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[24-Oct-2021 01:20:36 America/New_York] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[24-Oct-2021 01:20:42 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/babykwzq/misla.org/html/scss/php/phpmailer/PHPMailerAutoload.php on line 45
+[24-Oct-2021 01:20:47 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/babykwzq/misla.org/html/scss/php/phpmailer/class.phpmaileroauth.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/babykwzq/misla.org/html/scss/php/phpmailer/class.phpmaileroauth.php on line 26
+[03-Nov-2021 17:09:29 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[03-Nov-2021 17:09:29 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[03-Nov-2021 17:09:29 America/New_York] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[03-Nov-2021 17:09:37 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/babykwzq/misla.org/html/scss/php/phpmailer/PHPMailerAutoload.php on line 45
+[03-Nov-2021 17:09:45 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/babykwzq/misla.org/html/scss/php/phpmailer/class.phpmaileroauth.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/babykwzq/misla.org/html/scss/php/phpmailer/class.phpmaileroauth.php on line 26
+[10-Nov-2021 16:35:55 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[10-Nov-2021 16:35:55 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[10-Nov-2021 16:35:55 America/New_York] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[10-Nov-2021 16:36:01 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/babykwzq/misla.org/html/scss/php/phpmailer/PHPMailerAutoload.php on line 45
+[10-Nov-2021 16:36:07 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/babykwzq/misla.org/html/scss/php/phpmailer/class.phpmaileroauth.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/babykwzq/misla.org/html/scss/php/phpmailer/class.phpmaileroauth.php on line 26
+[13-Feb-2022 18:23:46 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/babykwzq/misla.org/html/scss/php/phpmailer/class.phpmaileroauth.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/babykwzq/misla.org/html/scss/php/phpmailer/class.phpmaileroauth.php on line 26
+[13-Feb-2022 18:23:48 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[13-Feb-2022 18:23:48 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[13-Feb-2022 18:23:48 America/New_York] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/babykwzq/misla.org/html/scss/php/phpmailer/get_oauth_token.php on line 18
+[13-Feb-2022 18:23:48 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/babykwzq/misla.org/html/scss/php/phpmailer/PHPMailerAutoload.php on line 45

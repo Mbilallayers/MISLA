@@ -1,0 +1,11 @@
+[17-Dec-2020 07:28:56 America/New_York] PHP Notice:  Undefined index: name in /home/babykwzq/public_html/misla/nonprofit/assets/php/subscribe-thankyou.php on line 8
+[17-Dec-2020 07:28:56 America/New_York] PHP Notice:  Undefined index: subject in /home/babykwzq/public_html/misla/nonprofit/assets/php/subscribe-thankyou.php on line 10
+[17-Dec-2020 07:28:56 America/New_York] PHP Notice:  Undefined index: message in /home/babykwzq/public_html/misla/nonprofit/assets/php/subscribe-thankyou.php on line 11
+[17-Dec-2020 07:29:52 America/New_York] PHP Notice:  Undefined index: name in /home/babykwzq/public_html/misla/nonprofit/assets/php/subscribe-thankyou.php on line 8
+[17-Dec-2020 07:29:52 America/New_York] PHP Notice:  Undefined index: subject in /home/babykwzq/public_html/misla/nonprofit/assets/php/subscribe-thankyou.php on line 10
+[17-Dec-2020 07:29:52 America/New_York] PHP Notice:  Undefined index: message in /home/babykwzq/public_html/misla/nonprofit/assets/php/subscribe-thankyou.php on line 11
+[17-Dec-2020 07:39:06 America/New_York] PHP Parse error:  syntax error, unexpected '.' in /home/babykwzq/public_html/misla/nonprofit/assets/php/subscribe-thankyou.php on line 13
+[17-Dec-2020 07:39:11 America/New_York] PHP Parse error:  syntax error, unexpected '.' in /home/babykwzq/public_html/misla/nonprofit/assets/php/subscribe-thankyou.php on line 13
+[17-Dec-2020 07:53:32 America/New_York] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/babykwzq/public_html/misla/nonprofit/assets/php/subscribe-thankyou.php on line 11
+[17-Dec-2020 07:53:58 America/New_York] PHP Notice:  Undefined variable: name in /home/babykwzq/public_html/misla/nonprofit/assets/php/subscribe-thankyou.php on line 12
+[17-Dec-2020 07:53:58 America/New_York] PHP Notice:  Undefined variable: message in /home/babykwzq/public_html/misla/nonprofit/assets/php/subscribe-thankyou.php on line 15

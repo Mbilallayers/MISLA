@@ -1,0 +1,210 @@
+.nav-link.active,
+.dropdown .nav-link:hover {
+    color: #fff200 !important;
+}
+.dropdown .nav-link {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+.about img.vpn-diagram{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.about  .whatIsVPN h2{
+    padding-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.about  section{
+    padding-top: 3rem;
+}
+.about  #vpn-document-nav{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.about  .vpn-document-nav-table-of-contents{
+    list-style: none;
+    background: #6f819f;
+}
+.about  .vpn-document-nav-table-of-contents a{
+    color: #ffffff;
+}
+.about  .vpn-document-nav-table-of-contents li{
+    padding: 1% 5%;
+}
+
+.about   .circle.aws img{
+    height: 39px;
+    margin: auto;
+    display: flex;
+}
+.about   .circle.azure img{
+    height: 39px;
+    margin: auto;
+    display: flex;
+}
+.about   .circle.gcp img{height: 49px;
+    margin: auto;
+    display: flex;}
+.about   .circle.digitalocean img{height: 40px;
+    margin: auto;
+    display: flex;}
+.about   .circle.appliances img{
+    height: 39px;
+    margin: auto;
+    display: flex;
+}
+.about  .circle.packages img{
+    height: 41px;
+    margin: auto;
+    display: flex;
+}
+.about   .circle.privatetunnel img{
+    height: 40px;
+    margin: auto;
+    display: flex;
+}
+.about   .remoteAccess{
+    height: 91px;
+}
+.about  .siteToSite{
+    height: 86px;
+}
+.about  .table td{
+
+}
+.about  .commonSetupDetails{
+    min-height: 13rem;
+}
+
+.about  .commonSetupDetails h3{
+    word-spacing: 100vw;
+}
+.about  .commonSetupDetails .row{
+    min-height: 50px;
+}
+.about  .cloudServersTable{
+    background-color: #becbe1c7;
+    width: 25%;
+}
+.about  .table thead th.cloudServersTable,.about   .table thead .onPremiseTable{
+    border-bottom: 0px solid #dee2e6;
+    border-top: 0px solid #dee2e6;
+}
+.about  .onPremiseTable{
+    background-color: #becbe1c7;
+    width: 25%;
+}
+.about  .diagramContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    /*    background: #fff;
+        border-radius: 1em;
+        border: 1px solid rgba(0,0,0,.2);
+        box-shadow: 0 0 15px rgba(0,0,0,.1);*/
+}
+.about  .vpn-diagram.oncloud{
+    width: auto;
+    height: 50px;
+    margin-right: 2rem;
+    margin-bottom: -5px;
+}
+.about  .vpn-diagram.onprem{
+    width: auto;
+    height: 50px;
+    margin-right: 2rem;
+    margin-bottom: -5px;
+}
+.about  .vpn-diagram.server{
+    height: 40px;
+}
+.about  .vpn-diagram.clients{
+    height: 40px;
+}
+.about  .vpn-diagram.internet{
+    height: 40px;
+}
+.about  .vpn-diagram.extranet{
+    height: 40px;
+}
+
+
+.about  .table thead th.onPremiseTable.TopTitle{
+    background-color: #ffffff;
+    border: 2px solid #4289a8;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+.about  .table thead th.cloudServersTable.TopTitle {
+
+    background-color: #ffffff;
+    border: 2px solid #6381b3;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.about  .table thead th.cloudServersTable.conTitle{
+    background-color: #dce4f2;
+}
+
+.about  .table thead th.onPremiseTable.conTitle{
+    background-color: #dce4f2;
+}
+.about  .cloudServersTable.con{
+    background-color: #dce4f2;
+}
+.about  .onPremiseTable.con{
+    background-color: #dce4f2;
+}
+.about  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.about  .circle  img{
+    max-width: 50%;
+}
+.about  .remoteAccessRow p, .about  .siteToSiteRow p{
+    margin-bottom: 0;
+}
+
+.about  .remoteAccessRow h2,.about   .siteToSiteRow h2{
+    padding-bottom: 0;
+}
+
+.about  .remoteAccessRowBorder{
+    border-right: 2px solid;
+}
+
+.about  #choose-your-vpn-solution .media{
+    align-items: center;
+    text-align: center;
+}
+.about  #choose-your-vpn-solution .media-body{
+    padding-top: 30px;
+}
+.about  #what-is-cloud-vpn .banner .media-body {
+    padding-top: 20px;
+}
+.about  #vpn-benefits li{
+    padding-bottom: 0.4rem;
+}
+.about  #choose-your-vpn-solution{
+    background: #ececec;
+}
+.about  #choose-your-vpn-solution h2{
+    color: #2d318b;
+}

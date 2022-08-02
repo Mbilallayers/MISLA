@@ -1,0 +1,179 @@
+/* line 6, ../sass/app.scss */
+body {
+  width: 100%;
+  background: url("../images/bg-image.jpg") center/cover no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 13, ../sass/app.scss */
+.black_girl {
+  float: left;
+  margin-right: 40px;
+}
+/* line 16, ../sass/app.scss */
+.black_girl img {
+  max-width: 150px;
+}
+
+/* line 20, ../sass/app.scss */
+.title {
+  top: 50px;
+  position: absolute;
+}
+/* line 23, ../sass/app.scss */
+.title img {
+  max-width: 320px;
+}
+
+/* line 27, ../sass/app.scss */
+.for_title {
+  margin-right: 16%;
+}
+
+/* line 30, ../sass/app.scss */
+.for_title img {
+    max-width: 160px;
+    margin-right: -40px;
+    margin-top: -30px
+}
+
+/* line 34, ../sass/app.scss */
+.social-list {
+  display: block;
+}
+/* line 36, ../sass/app.scss */
+.social-list li {
+  padding: 0 15px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+/* line 40, ../sass/app.scss */
+.social-list li img {
+  transition: 0.4s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  max-width: 61px;
+}
+/* line 43, ../sass/app.scss */
+.social-list li img:hover {
+  transform: scale(1.1);
+}
+
+/* line 50, ../sass/app.scss */
+.ltl_box_footer {
+  width: 840px;
+  margin: 50px auto 0 auto;
+}
+
+/* line 54, ../sass/app.scss */
+.youtube_box iframe {
+  background: url("../images/youtube-frame.png") center/cover no-repeat;
+  padding: 24px 22px;
+}
+
+/* line 59, ../sass/app.scss */
+a {
+  -webkit-transition: 0.4s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  -ms-transiion: 0.4s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  -moz-transition: 0.4s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  transition: 0.4s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
+/* line 64, ../sass/app.scss */
+a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  /* line 79, ../sass/app.scss */
+  .container {
+    max-width: 620px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 85, ../sass/app.scss */
+  .container {
+    max-width: 940px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 91, ../sass/app.scss */
+  .container {
+    max-width: 1100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 97, ../sass/app.scss */
+  .container {
+    max-width: 1250px;
+  }
+}
+@media (max-width: 800px) {
+  /* line 103, ../sass/app.scss */
+  .for_title, .for_title img {
+    margin-right: 0;
+    text-align: center !important;
+  }
+.for_title img {
+        margin-top: 0;
+}
+  /* line 107, ../sass/app.scss */
+  .title img {
+    margin-top: 17px;
+    max-width: 270px;
+  }
+
+  /* line 112, ../sass/app.scss */
+  .ltl_box {
+    text-align: center;
+  }
+
+  /* line 115, ../sass/app.scss */
+  .title {
+    top: 0;
+    position: relative;
+  }
+
+  /* line 119, ../sass/app.scss */
+  .social-list li {
+    padding: 0 5px;
+  }
+
+  /* line 122, ../sass/app.scss */
+  .black_girl img {
+    margin-bottom: 20px;
+    max-width: 100px;
+  }
+
+  /* line 126, ../sass/app.scss */
+  .ltl_box_footer {
+    width: 100%;
+  }
+
+  /* line 129, ../sass/app.scss */
+  .social-list li img {
+    max-width: 51px;
+  }
+
+  /* line 132, ../sass/app.scss */
+  .youtube_box iframe {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    border: 4px solid #f0699b;
+    outline: 1px solid #FFF;
+  }
+
+  /* line 139, ../sass/app.scss */
+  body {
+    height: 100%;
+  }
+
+  /* line 142, ../sass/app.scss */
+  .black_girl {
+    float: none;
+    margin-right: 0;
+    text-align: center;
+  }
+}
