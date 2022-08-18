@@ -1,0 +1,512 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.logo-img {
+    max-width: 130px;
+}
+
+.main-hero-section {
+    min-height: calc(100vh);
+    background-image: url("../images/hero-img.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*z-index: -1;*/
+}
+.main-hero-section .heading {
+    position: relative;
+    width: max-content;
+    padding: 40px;
+    z-index: 1;
+}
+.main-hero-section .heading h2 span {
+    font-weight: 800 !important;
+}
+.main-hero-section .heading h2 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+}
+.main-hero-section .heading:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #F37524;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: -1;
+    mix-blend-mode: multiply;
+}
+
+header {
+    padding-left: 120px;
+    padding-right: 120px;
+    z-index: 999;
+}
+
+.navbar-toggler-icon {
+    color: #F37524;
+    height: auto !important;
+    width: auto !important;
+    line-height: 34px;
+    display: none;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background: transparent;
+}
+.sidenav:before {
+    height: 100%;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-image: url(../images/background-sidebar.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.8;
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
+}
+
+.sidenav a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #4E5050;
+    display: block;
+    transition: 0.3s;
+    font-weight: 800;
+
+}
+
+.sidenav a:hover {
+    color: #F37524;
+}
+.sidenav a.active {
+    color: #F37524 !important;
+}
+.closebtn {
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 44px;
+    line-height: 50px;
+}
+.navbar-nav .dropdown-menu {
+    position: relative !important;
+    transform: initial !important;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+.navbar-nav .dropdown-menu li {
+    font-weight: lighter;
+}
+.navbar-nav .dropdown-menu li a {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: transparent;
+    font-weight: 500;
+}.navbar-nav .dropdown-menu li a:hover {
+    color: #F37524 !important;
+    background: transparent;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.close-icon {
+    display: block;
+}
+
+
+.toggler-icon {
+    display: block;
+}
+.page-logo img {
+    max-width: 500px;
+}
+
+.bootcamp-header {
+    position: relative;
+    text-align: center;
+}
+
+.bootcamp-header:after {
+    position:absolute;
+    content:"";
+    left:50%;
+    bottom:-60px;
+    background-image:url("../images/header-placeholder.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+
+    width: 200px;
+    height: 60px;
+    transform: translate(-50%, 0px);
+}
+.heading-text h2 {
+    color: #03906F;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 900;
+    text-shadow: 0px 0px 10px rgb(3 144 111 / 5%);
+    font-size: 34px;
+}
+
+.bootcamp-section {
+    padding: 220px 0;
+    background-image: url("../images/bg-image.png");
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.billionaire-heading-sec:before {
+    content: "";
+    position: absolute;
+    width: 260px;
+    height: 160px;
+    left: 0;
+    top: 0;
+    background-image: url('../images/ux-design.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.billionaire-heading-sec:after {
+    content: "";
+    position: absolute;
+    width: 260px;
+    height: 140px;
+    right: 0;
+    top: 0;
+    background-image: url('../images/coding.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.first-bootcamp-classes-row {
+    position: relative;
+}
+.first-bootcamp-classes-row:after {
+    content: "";
+    position: absolute;
+    width: 260px;
+    height: 140px;
+    right: 0;
+    bottom: 0;
+    background-image: url('http://144.202.127.75/wp-content/uploads/2022/08/misla.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bootcamp-classes, .bootcamp-hero-classes {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    align-content: initial;
+    min-height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.class1 {
+    background-image: url("../images/class-frame-clab.png");
+}
+.class2 {
+    background-image: url("../images/class-frame-ux.png");
+}
+.class3 {
+    background-image: url("../images/class-frame-cc.png");
+}
+.class4 {
+    background-image: url("../images/class-frame-mf.png");
+}
+.class5 {
+    background-image: url("../images/class-frame-slr.png");
+}
+.class6 {
+    background-image: url("../images/class-frame-rsfl.png");
+}
+.h-class-1 {
+    background-image: url("../images/aspiring-vector-1_02.png");
+}
+
+.class-main-heading h6 {
+    margin-top: auto;
+}
+.subtitle {
+    padding-top: 60px;
+    padding-left: 95px;
+}
+.subtitle p {
+    position: relative;
+    z-index: 10;
+    padding-left: 14px;
+    padding-bottom: 0;
+    color: #fff;
+    font-weight: bold;
+}
+.subtitle p:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 112px;
+    height: 40px;
+    right: 0;
+    left: -15px;
+    bottom: -12px;
+    background-image: url('http://144.202.127.75/wp-content/uploads/2022/08/total-weeks.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.class-main-heading {
+    padding-bottom: 60px;
+    padding-left: 85px;
+}
+.class-main-heading h6 {
+    margin-top: auto;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bbttc-heading-sec:before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 0;
+    top: -70px;
+    background-image: url('../images/content-creation.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.second-bootcamp-classes-row {
+    padding-top: 100px;
+}
+.second-bootcamp-classes-row:before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    height: 180px;
+    left: 0;
+    bottom: 0;
+    background-image: url('../images/misla-ws.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.second-bootcamp-classes-row:after {
+    content: "";
+    position: absolute;
+    width: 240px;
+    height: 100px;
+    right: 0;
+    top: 120px;
+    background-image: url('../images/robotics.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.classes-header h5 {
+    padding: 0 40px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #222;
+    opacity: .5;
+}
+
+.exploratory-learning:before {
+    content: "";
+    position: absolute;
+    height: 540px;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    background-image: url('../images/exploratory-learning.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.page-logo {
+    padding-bottom: 0 !important;
+}
+.exploratory-learning .row {
+    padding-top: 0 !important;
+}
+
+.extreprenuer-focused:before {
+    content: "";
+    position: absolute;
+    height: 520px;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    background-image: url('../images/entreprenuer-focused.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.page-logo {
+    padding-bottom: 0 !important;
+}
+.extreprenuer-focused .row {
+    padding-top: 0 !important;
+}
+
+
+.bottom-logo img {
+    max-width: 290px;
+}
+.top-logo img {
+    max-width: 360px;
+    transform: rotate(-25deg);
+}
+.profile-icon {    max-width: 40px;
+    border: 5px solid #e5e5e5;
+    border-radius: 50%;
+}
+
+.bootcamp-hero-classes {
+    padding: 0 80px;
+    flex-direction: row;
+}
+.bootcamp-hero-classes .class-content {
+    padding: 50px 10px;
+    font-family: Montserrat, sans-serif;
+}
+.bootcamp-hero-classes .title {
+    font-weight: 800;
+    font-style: italic;
+}
+.bootcamp-hero-classes .subtitle{
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
+.bootcamp-hero-classes .icon {
+    position: relative;
+    z-index: 1;
+}
+.bootcamp-hero-classes .icon:before {
+    position: absolute;
+    content: "";
+    width: 142px;
+    height: 140px;
+    background-image: url(../images/aspiring-vector.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: -40px;
+    top: -30px;
+    /* z-index: 1; */
+    z-index: -1;
+}
+.bootcamp-hero-classes .icon img {
+    max-width: 80px;
+    padding: 5px 15px;
+}
+.subtitle.h-subtitle {
+    padding: 0;
+    display: flex;justify-content: end;
+    align-items: center;
+    padding-right: 140px;
+}
+
+.aspiring .subtitle.h-subtitle p:before {
+    background-image: url("../images/aspiring-btn-bg.png");
+    width: 230px;
+    height: 75px;
+    bottom: -40px;
+}
+.school .subtitle.h-subtitle p:before {
+    background-image: url("../images/school-btn-bg.png");
+    width: 230px;
+    height: 75px;
+    bottom: -40px;
+}
+
+.bootcamp-hero-classes.h-class-2 .icon:before {
+    background-image: url("../images/school-vector.png");
+    width: 110px;
+    height: 135px;
+    left: -10px;
+    top: -20px;
+}
+
+
+.bootcamp-hero-classes.h-class-2 {
+    background-image: url("../images/school-vector-1_02.png");
+}
+
+
+.h-class-section {
+    top: -210px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
