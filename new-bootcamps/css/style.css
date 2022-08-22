@@ -25,7 +25,7 @@ body {
 }
 .main-hero-section .heading {
     position: relative;
-    width: max-content;
+    /*width: max-content;*/
     padding: 40px;
     z-index: 1;
 }
@@ -305,6 +305,7 @@ header {
     line-height: 26px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
+    color: #000000;
 }
 
 .bbttc-heading-sec:before {
@@ -370,6 +371,7 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    z-index: -1;
 }
 
 .page-logo {
@@ -390,10 +392,14 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    z-index: -1;
 }
 
 .page-logo {
     padding-bottom: 0 !important;
+}
+.extreprenuer-focused, .exploratory-learning {
+    z-index: 1;
 }
 .extreprenuer-focused .row {
     padding-top: 0 !important;
@@ -460,13 +466,13 @@ header {
     padding-right: 140px;
 }
 
-.aspiring .subtitle.h-subtitle p:before {
+.aspiring .subtitle.h-subtitle a:before {
     background-image: url("../images/aspiring-btn-bg.png");
     width: 230px;
     height: 75px;
     bottom: -40px;
 }
-.school .subtitle.h-subtitle p:before {
+.school .subtitle.h-subtitle a:before {
     background-image: url("../images/school-btn-bg.png");
     width: 230px;
     height: 75px;
@@ -492,7 +498,283 @@ header {
 }
 
 
+.subtitle.h-subtitle a {
+    position: relative;
+    z-index: 10;
+    padding-left: 14px;
+    padding-bottom: 0;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.subtitle.h-subtitle a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 112px;
+    height: 40px;
+    right: 0;
+    left: -15px;
+    bottom: -12px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
+@media (max-width: 767px) {
+    header {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .logo-img {
+        max-width: 100px;
+    }
+    .sidenav {
+        z-index: 99;
+        /*width: 260px;*/
+    }
+    .sidenav:before {
+        width: 260px;
+        z-index: 99;
+    }
+    .navbar-nav {
+        z-index: 9999;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+    .main-hero-section .heading {
+        padding: 20px;
+    }
+    .main-hero-section .heading h2 {
+        font-size: 24px;
+    }
+    .h-class-section {
+        top: 0;
+        padding: 70px 0;
+        position: relative !important;
+    }
+    .bootcamp-section {
+        padding: 40px 0;
+    }
+    .bootcamp-hero-classes {
+        padding: 0;
+    }
+    .bootcamp-hero-classes .icon img {
+        max-width: 70px;
+        padding: 5px 10px;
+    }
+    .bootcamp-hero-classes .icon:before {
+        width: 122px;
+        height: 120px;
+        left: -30px;
+        top: -20px;
+    }
+    .bootcamp-hero-classes .icon {
+        display: flex;
+        align-items: center;
+        height: max-content;
+    }
+    .bootcamp-hero-classes .class-content {
+        padding: 10px;
+        height: max-content;
+    }
+    .bootcamp-hero-classes .title {
+        font-size: 20px;
+    }
+    .bootcamp-hero-classes .subtitle {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 15px;
+        font-size: 14px;
+        font-style: italic;
+    }
+    .bootcamp-classes, .bootcamp-hero-classes {
+        min-height: 250px;
+        padding: 20px 0;
+    }
+    .aspiring {
+        padding-bottom: 60px;
+    }
+    .subtitle.h-subtitle {
+        padding-right: 70px;
+    }
+    .page-logo img {
+        max-width: 300px;
+    }
+    .exploratory-learning:before {
+        display: none;
+    }
+    .extreprenuer-focused:before {
+        display: none;
+    }
+    .billionaire-heading-sec:before {
+        width: 130px;
+        height: 80px;
+    }
+    .billionaire-heading-sec:after {
+        width: 130px;
+        height: 70px;
+    }
+    .classes-header h5 {
+        padding: 0 20px;
+    }
+    .subtitle {
+        padding-top: 30px;
+        padding-left: 55px;
+    }
+    .class-main-heading {
+        padding-bottom: 40px;
+        padding-left: 45px;
+    }
+    .first-bootcamp-classes-row:after {
+        width: 130px;
+        height: 70px;
+    }
+    .classes-header {
+        padding-bottom: 0 !important;
+    }
+    .bbttc-heading-sec:before {
+        width: 130px;
+        height: 80px;
+        top: -50px;
+    }
+    .second-bootcamp-classes-row:after {
+        width: 130px;
+        height: 50px;
+        top: 80px;
+    }
+    .second-bootcamp-classes-row:before {
+        width: 140px;
+        height: 100px;
+    }
+}
+
+
+@media (min-width: 767px) and (max-width: 1200px) {
+    header {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .logo-img {
+        max-width: 100px;
+    }
+    .sidenav {
+        z-index: 99;
+    }
+    .sidenav:before {
+        z-index: 99;
+    }
+    .navbar-nav {
+        z-index: 9999;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+    .main-hero-section .heading {
+        padding: 20px;
+    }
+    .main-hero-section .heading h2 {
+        font-size: 24px;
+    }
+    .h-class-section {
+        top: 0;
+        padding: 70px 0;
+        position: relative !important;
+    }
+    .bootcamp-section {
+        padding: 40px 0;
+    }
+    .bootcamp-hero-classes {
+        padding: 0;
+    }
+    .bootcamp-hero-classes .icon img {
+        max-width: 70px;
+        padding: 5px 10px;
+    }
+    .bootcamp-hero-classes .icon:before {
+        width: 122px;
+        height: 120px;
+        left: -30px;
+        top: -20px;
+    }
+    .bootcamp-hero-classes .icon {
+        display: flex;
+        align-items: center;
+        height: max-content;
+    }
+    .bootcamp-hero-classes .class-content {
+        padding: 10px;
+        height: max-content;
+    }
+    .bootcamp-hero-classes .title {
+        font-size: 20px;
+    }
+    .bootcamp-hero-classes .subtitle {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 15px;
+        font-size: 14px;
+        font-style: italic;
+    }
+    .bootcamp-classes, .bootcamp-hero-classes {
+        min-height: 250px;
+        padding: 20px 0;
+    }
+    .aspiring {
+        padding-bottom: 60px;
+    }
+    .subtitle.h-subtitle {
+        padding-right: 70px;
+    }
+    .page-logo img {
+        max-width: 300px;
+    }
+    .exploratory-learning:before {
+        display: none;
+    }
+    .extreprenuer-focused:before {
+        display: none;
+    }
+    .billionaire-heading-sec:before {
+        width: 130px;
+        height: 80px;
+    }
+    .billionaire-heading-sec:after {
+        width: 130px;
+        height: 70px;
+    }
+    .classes-header h5 {
+        padding: 0 20px;
+    }
+    .subtitle {
+        padding-top: 30px;
+        padding-left: 55px;
+    }
+    .class-main-heading {
+        padding-bottom: 40px;
+        padding-left: 45px;
+    }
+    .first-bootcamp-classes-row:after {
+        width: 130px;
+        height: 70px;
+    }
+    .classes-header {
+        padding-bottom: 0 !important;
+    }
+    .bbttc-heading-sec:before {
+        width: 130px;
+        height: 80px;
+        top: -50px;
+    }
+    .second-bootcamp-classes-row:after {
+        width: 130px;
+        height: 50px;
+        top: 80px;
+    }
+    .second-bootcamp-classes-row:before {
+        width: 140px;
+        height: 100px;
+    }
+}
 
 
 
