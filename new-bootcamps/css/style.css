@@ -324,7 +324,13 @@ header {
     background-size: cover;
 }
 .second-bootcamp-classes-row {
-    padding-top: 100px;
+    /*padding-top: 100px;*/
+}
+.classes-header {
+    /*padding: 0 !important;*/
+}
+.page-logo {
+    padding: 0 !important;
 }
 .second-bootcamp-classes-row:before {
     content: "";
@@ -596,7 +602,7 @@ header {
         font-style: italic;
     }
     .bootcamp-classes, .bootcamp-hero-classes {
-        min-height: 250px;
+        min-height: 270px;
         padding: 20px 0;
     }
     .aspiring {
@@ -617,10 +623,12 @@ header {
     .billionaire-heading-sec:before {
         width: 130px;
         height: 80px;
+        z-index: -1;
     }
     .billionaire-heading-sec:after {
         width: 130px;
         height: 70px;
+        z-index: -1;
     }
     .classes-header h5 {
         padding: 0 20px;
