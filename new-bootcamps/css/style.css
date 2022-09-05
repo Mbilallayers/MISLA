@@ -14,10 +14,7 @@ body {
 
 .main-hero-section {
     min-height: calc(100vh);
-    background-image: url("../images/hero-img.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../images/hero-img.png") top left/cover no-repeat;
     width: 100%;
     display: flex;
     align-items: center;
@@ -533,7 +530,25 @@ header {
     background-size: cover;
 }
 
+@media (min-width: 768px) {
+       .showonmobile {
+        display: none;
+    }
+}
+
 @media (max-width: 767px) {
+    .bootcamp-hero-classes {
+        gap: 0;
+    }
+    .bootcamp-classes {
+        justify-content:  initial;
+    }
+    .showondesktop {
+        display: none;
+    }
+    #header {
+            position: relative !important;
+    }
     header {
         padding-left: 40px;
         padding-right: 40px;
@@ -542,7 +557,7 @@ header {
         max-width: 100px;
     }
     .sidenav {
-        z-index: 99;
+        z-index: 999;
         /*width: 260px;*/
     }
     .sidenav:before {
@@ -588,7 +603,7 @@ header {
     }
     .bootcamp-hero-classes .class-content {
         padding: 10px;
-        height: max-content;
+        /*height: max-content;*/
         min-height: 200px;
     }
     .bootcamp-hero-classes .title {
@@ -603,7 +618,7 @@ header {
     }
     .bootcamp-classes, .bootcamp-hero-classes {
         min-height: 270px;
-        padding: 20px 0;
+        /*padding: 20px 0;*/
     }
     .aspiring {
         padding-bottom: 60px;
@@ -639,7 +654,10 @@ header {
     }
     .class-main-heading {
         padding-bottom: 40px;
-        padding-left: 45px;
+        padding-left: 0;
+    }
+    .class-main-heading h6 {
+        text-align: center;
     }
     .first-bootcamp-classes-row:after {
         width: 130px;
