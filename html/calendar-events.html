@@ -139,11 +139,11 @@ With added support from 	</p>
         <div class="text-center" id="calendar1"></div>
         <p style="text-align: center; margin-top: 50px ">
             <!--<span class="badge badge-success" style="font-size: 16px;margin-bottom:10px;background-color:rgb(57 179 34);">Instr: Cameron Smith - Green </span>-->
-            <span class="badge badge-inverse" style="font-size: 16px;background-color: #c43bd0;margin-bottom:10px;">Instr: Phillip Banks - Purple</span>
-            <span class="badge badge-inverse" style="font-size: 16px;background-color: rgb(179, 34, 54);margin-bottom:10px;">Instr. Lisa Gillett - Red</span>
-            <span class="badge badge-inverse" style="font-size: 16px;background-color: rgb(43 34 179);margin-bottom:10px;">Instr. Jen Lashley + Ravi - Blue</span>
+            <!-- <span class="badge badge-inverse" style="font-size: 16px;background-color: #c43bd0;margin-bottom:10px;">Instr: Phillip Banks - Purple</span> -->
+            <!-- <span class="badge badge-inverse" style="font-size: 16px;background-color: rgb(179, 34, 54);margin-bottom:10px;">Instr. Lisa Gillett - Red</span> -->
+            <span class="badge badge-inverse" style="font-size: 16px;background-color: rgb(43 34 179);margin-bottom:10px;">Instr. Coach Josh & Mia - Blue</span>
             <!--<span class="badge badge-inverse" style="font-size: 16px;background-color: #e60094;margin-bottom:10px;">Instr. Kandee Lewis - Light Pink</span>-->
-            <span class="badge badge-inverse" style="font-size: 16px;background-color: #e60094;margin-bottom:10px;">Instr. Cassie Betts - Light Pink</span>
+            <span class="badge badge-inverse" style="font-size: 16px;background-color: #e60094;margin-bottom:10px;">Instr. Phillip Banks, Cameron Smith & Ryan Burks - Light Pink</span>
             <span class="badge badge-inverse" style="font-size: 16px;background-color: #00a59f;margin-bottom:10px;">Instr. Josh Sykes - Dark Cyan</span>
             <!--<span class="badge badge-inverse" style="font-size: 16px;background-color: #00a59f;margin-bottom:10px;">Instr. Jayden Smith - Dark Cyan</span>-->
             <!--<span class="badge badge-inverse" style="font-size: 16px;background-color: #920049;margin-bottom:10px;">Instr. Judy Greenfeld - Dark Pink</span>-->
@@ -229,1370 +229,264 @@ With added support from 	</p>
                 center: 'title',
                 right: 'dayGridMonth,dayGridWeek,dayGridDay'
             },
-            initialDate: '2022-07-01',
+            initialDate: '2022-10-01',
             navLinks: true, // can click day/week names to navigate views
             editable: false,
             
             dayMaxEvents: false, // allow "more" link when too many events
             events: [
-
-//                 {
-//                     id: 1,
-//                     title: '12:00pm-2:00pm \n' +
-//                         'Real Estate 101 \n' +
-//                         'Instr: Lisa Gillett',
-//                     backgroundColor: 'rgb(179, 34, 54)' ,
-//                     url: 'https://us02web.zoom.us/j/82540008284?pwd=cCs2WTFHVGd2a21zdEZiRzlRZlhRQT09',
-//       start: '2021-07-07',
-//       order: 2,
-//                 },
-//                 {
-//                     id: 2,
-//                     title: '10:00am-11:00am \n' +
-//                         'Beats with Code - Intro to Python \n' +
-//                         'Instr: Jen Lashley',
-//                     backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-07',
-//                     order: 1,
-//                 },
-//                          {
-//                     id: 3,
-//                     title: '2:30pm-4:00pm	 \n' +
-//                         'Leadership Program \n' +
-//                         'Instr: Kandee Lewis 	',
-//                                   url: 'https://us02web.zoom.us/j/88601931318?pwd=SHhZZUExVm1NakYxd0lZVFcxL2lSdz09',
-//     backgroundColor: '#e60094' ,
-//                     start: '2021-07-07',
-//                     order: 3,
-//                 },      
-//                                 {
-//                     id: 4,
-//                     title: '10:00am-11:00am \n' +
-//                         'Beats with Code - Intro to Python \n' +
-//                         'Instr: Jen Lashley',
-//                     backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-08',
-//                     order: 4,
-//                 },
-//          {
-//                     id: 5,
-//                     title: '02:30pm-04:30pm  \n' +
-//                         'Build Your Own Website  \n' +
-//                         'Instr: Phillip Banks',
-//      url: 'https://us02web.zoom.us/j/82004783576?pwd=L3N4Y00zZXR1SkxJTlp0N2hiQjYvdz09',
-//      backgroundColor: '#c43bd0' ,
-//                     start: '2021-07-08',
-//                     order: 5,
-//                 },
-//                   {
-//                     id: 6,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                     backgroundColor: 'rgb(57 179 34)' ,
-//                                 url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//         start: '2021-07-08',
-//         order: 6
-//                 },
-              
-//                             {
-//                     id: 7,
-//                     title: '12:00pm-02:00pm  \n' +
-//                         'Real Estate 101  \n' +
-//                         'Instr: Lisa Gillett',
-//                               url: 'https://us02web.zoom.us/j/82540008284?pwd=cCs2WTFHVGd2a21zdEZiRzlRZlhRQT09',
-//          backgroundColor: 'rgb(179, 34, 54)' ,
-//                     start: '2021-07-12',
-//                     order: 8
-//                 },
-//                         {
-//                     id: 8,
-//                     title: '10:00am-11:00am \n' +
-//                         '3D Modeling - Electronics (Circuits)	 \n' +
-//                         'Instr: Jen Lashley',
-//                   url: 'https://us02web.zoom.us/j/2647719340  Meeting ID is 264-771-9340',
-//       backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-12',
-//                     order: 7
-//                 },
-//                      {
-//                     id: 9,
-//                  title: '12:00pm-02:00pm PST \n' +
-//                         '3D Modeling - Electronics (Circuits)	 \n' +
-//                         'Instr: Jen Lashley',
-//                                  url: 'https://us02web.zoom.us/j/2647719340  Meeting ID is 264-771-9340',
-//      backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-13',
-//                     order: 9
-//                 },
-                
-//                   {
-//                     id: 10,
-//                     title: '2:30pm-4:30pm		 \n' +
-//                         'Build Your Own Website	\n' +
-//                         'Instr. Phillip Banks	',
-//                     url: 'https://us02web.zoom.us/j/82004783576?pwd=L3N4Y00zZXR1SkxJTlp0N2hiQjYvdz09',
-//      backgroundColor: 'rgb(196, 59, 208)' ,
-//                     start: '2021-07-13',
-//                     order: 10,
-//                 },      
-//                   {
-//                     id: 11,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                                           url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//           backgroundColor: 'rgb(57 179 34)' ,
-//                     start: '2021-07-13',
-//                     order: 11,
-//                 },
-//                   {
-//                     id: 12,
-//                     title: '12:00pm-02:00pm  \n' +
-//                         'Real Estate 101  \n' +
-//                         'Instr: Lisa Gillett',
-//                           url: 'https://us02web.zoom.us/j/82540008284?pwd=cCs2WTFHVGd2a21zdEZiRzlRZlhRQT09',
-//               backgroundColor: 'rgb(179, 34, 54)' ,
-//                     start: '2021-07-14',
-//                     order: 13,
-//                 },
-//                         {
-//                     id: 13,
-//                     title: '10:00am-11:00am \n' +
-//                         '3D Modeling - Electronics (Circuits)	 \n' +
-//                         'Instr: Jen Lashley',
-//                             url: 'https://us02web.zoom.us/j/2647719340  Meeting ID is 264-771-9340',
-//           backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-14',
-//                     order: 12,
-//                 },
-   
-//                     {
-//                     id: 14,
-//                     title: '2:30pm-4:00pm	 \n' +
-//                         'Leadership Program \n' +
-//                         'Instr: Kandee Lewis 	',
-//               url: 'https://us02web.zoom.us/j/88601931318?pwd=SHhZZUExVm1NakYxd0lZVFcxL2lSdz09',
-//               backgroundColor: '#e60094' ,
-//                     start: '2021-07-14',
-//                     order: 14,
-//                 },      
-               
-//                   {
-//                     id: 15,
-//                  title: '12:00pm-02:00pm  \n' +
-//                         '3D Modeling - Electronics (Circuits)	 \n' +
-//                         'Instr: Jen Lashley',
-//                               url: 'https://us02web.zoom.us/j/2647719340  Meeting ID is 264-771-9340',
-//       backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-15',
-//                     order: 15,
-//                 },
-                
-//                   {
-//                     id: 16,
-//                     title: '2:30pm-4:30pm		 \n' +
-//                         'Build Your Own Website	\n' +
-//                         'Instr. Phillip Banks	',
-//                   url: 'https://us02web.zoom.us/j/82004783576?pwd=L3N4Y00zZXR1SkxJTlp0N2hiQjYvdz09',
-//       backgroundColor: 'rgb(196, 59, 208)' ,
-//                     start: '2021-07-15',
-//                     order: 16,
-//                 },      
-//                   {
-//                     id: 17,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                          url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//                          backgroundColor: 'rgb(57 179 34)' ,
-//                     start: '2021-07-15',
-//                     order: 17,
-//                 },
-                
-//                                           {
-//                     id: 18,
-//                     title: '12:00pm-02:00pm  \n' +
-//                         'Real Estate 101  \n' +
-//                         'Instr: Lisa Gillett',
-//                                      url: 'https://us02web.zoom.us/j/82540008284?pwd=cCs2WTFHVGd2a21zdEZiRzlRZlhRQT09',
-//   backgroundColor: 'rgb(179, 34, 54)' ,
-//                     start: '2021-07-19',
-//                     order: 19,
-//                 },
-//                         {
-//                     id: 19,
-//                     title: '10:00am-11:00am \n' +
-//                         'Beats with Code - Functions (Python)	 \n' +
-//                         'Instr: Jen Lashley',
-//                     backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-19',
-//                     order: 18,
-//                 },
-                
-//                           {
-//                     id: 20,
-//                  title: '10:00am-11:00am \n' +
-//                         'Beats with Code - Functions (Python)		 \n' +
-//                         'Instr: Jen Lashley',
-//                     backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-20',
-//                     order: 20,
-//                 },
-                
-//                   {
-//                     id: 21,
-//                     title: '2:30pm-4:30pm		 \n' +
-//                         'Build Your Own Website	\n' +
-//                         'Instr. Phillip Banks	',
-//                 url: 'https://us02web.zoom.us/j/82004783576?pwd=L3N4Y00zZXR1SkxJTlp0N2hiQjYvdz09',
-//          backgroundColor: 'rgb(196, 59, 208)' ,
-//                     start: '2021-07-20',
-//                     order: 21,
-//                 },      
-//                   {
-//                     id: 22,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                       url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//                       backgroundColor: 'rgb(57 179 34)' ,
-//                     start: '2021-07-20',
-//                     order: 22,
-//                 },
-                            
-//                   {
-//                     id: 23,
-//                  title: '10:00am-11:00am \n' +
-//                         'Beats with Code - Functions (Python)	 \n' +
-//                         'Instr: Jen Lashley',
-//                     backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-21',
-//                     order: 23,
-//                 },
-//                      {
-//                     id: 24,
-//                     title: '2:30pm-4:00pm	 \n' +
-//                         'Leadership Program \n' +
-//                         'Instr: Kandee Lewis 	',
-//               url: 'https://us02web.zoom.us/j/88601931318?pwd=SHhZZUExVm1NakYxd0lZVFcxL2lSdz09',
-//               backgroundColor: '#e60094' ,
-//                     start: '2021-07-21',
-//                     order: 24,
-//                 },  
-//                   {
-//                     id: 25,
-//                   title: '10:00am-11:00am \n' +
-//                         'Beats with Code - Functions (Python)	 \n' +
-//                         'Instr: Jen Lashley',
-//                     backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-22',
-//                     order: 25,
-//                 },
-                
-//                   {
-//                     id: 26,
-//                     title: '2:30pm-4:30pm		 \n' +
-//                         'Build Your Own Website	\n' +
-//                         'Instr. Phillip Banks	',
-//                     url: 'https://us02web.zoom.us/j/82004783576?pwd=L3N4Y00zZXR1SkxJTlp0N2hiQjYvdz09',
-//      backgroundColor: 'rgb(196, 59, 208)' ,
-//                     start: '2021-07-22',
-//                     order: 26,
-//                 },      
-//                   {
-//                     id: 27,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                           url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//                           backgroundColor: 'rgb(57 179 34)' ,
-//                     start: '2021-07-22',
-//                     order: 27,
-//                 },
-                
-                
-//                         {
-//                     id: 28,
-//                     title: '12:00pm-02:00pm  \n' +
-//                         'Real Estate 101  \n' +
-//                         'Instr: Lisa Gillett',
-//                                   url: 'https://us02web.zoom.us/j/82540008284?pwd=cCs2WTFHVGd2a21zdEZiRzlRZlhRQT09',
-//      backgroundColor: 'rgb(179, 34, 54)' ,
-//                     start: '2021-07-26',
-//                     order: 29,
-//                 },
-//                         {
-//                     id: 29,
-//                     title: '10:00am-11:00am \n' +
-//                         '3D Modeling - Electronics (Circuits)	 \n' +
-//                         'Instr: Jen Lashley',
-//                                   url: 'https://us02web.zoom.us/j/2647719340  Meeting ID is 264-771-9340',
-//     backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-26',
-//                     order: 28,
-//                 },
-                
-                
-                
-//                                  {
-//                     id: 30,
-//                  title: '10:00am-11:00am \n' +
-//                         'Beats with Code - Functions (Python)		 \n' +
-//                         'Instr: Jen Lashley',
-//                     backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-27',
-//                     order: 30,
-//                 },
-                
-//                   {
-//                     id: 31,
-//                     title: '2:30pm-4:30pm		 \n' +
-//                         'Build Your Own Website	\n' +
-//                         'Instr. Phillip Banks	',
-//                      url: 'https://us02web.zoom.us/j/82004783576?pwd=L3N4Y00zZXR1SkxJTlp0N2hiQjYvdz09',
-//     backgroundColor: 'rgb(196, 59, 208)' ,
-//                     start: '2021-07-27',
-//                     order: 31,
-//                 },      
-//                   {
-//                     id: 32,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                           url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//                           backgroundColor: 'rgb(57 179 34)' ,
-//                     start: '2021-07-27',
-//                     order: 32,
-//                 },
-                
-                
-//                       {
-//                     id: 33,
-//                     title: '12:00pm-02:00pm  \n' +
-//                         'Real Estate 101  \n' +
-//                         'Instr: Lisa Gillett',
-//                                     url: 'https://us02web.zoom.us/j/82540008284?pwd=cCs2WTFHVGd2a21zdEZiRzlRZlhRQT09',
-//     backgroundColor: 'rgb(179, 34, 54)' ,
-//                     start: '2021-07-28',
-//                     order: 34,
-//                 },
-//                         {
-//                     id: 34,
-//                     title: '10:00am-11:00am \n' +
-//                         '3D Modeling - Electronics (Circuits)	 \n' +
-//                         'Instr: Jen Lashley',
-//                               url: 'https://us02web.zoom.us/j/2647719340  Meeting ID is 264-771-9340',
-//         backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-28',
-//                     order: 33,
-//                 },
-   
-//                     {
-//                     id: 35,
-//                     title: '2:30pm-4:00pm	 \n' +
-//                         'Leadership Program \n' +
-//                         'Instr: Kandee Lewis 	',
-//               url: 'https://us02web.zoom.us/j/88601931318?pwd=SHhZZUExVm1NakYxd0lZVFcxL2lSdz09',
-//                     backgroundColor: '#e60094' ,
-//                     start: '2021-07-28',
-//                     order: 35,
-//                 },
-                
-                
-//               {
-//                     id: 36,
-//                   title: '10:00am-11:00am \n' +
-//                         'Beats with Code - Functions (Python)	 \n' +
-//                         'Instr: Jen Lashley',
-//                     backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-07-29',
-//                     order: 36,
-//                 },
-                
-//                   {
-//                     id: 37,
-//                     title: '2:30pm-4:30pm		 \n' +
-//                         'Build Your Own Website	\n' +
-//                         'Instr. Phillip Banks	',
-//                   url: 'https://us02web.zoom.us/j/82004783576?pwd=L3N4Y00zZXR1SkxJTlp0N2hiQjYvdz09',
-//       backgroundColor: 'rgb(196, 59, 208)' ,
-//                     start: '2021-07-29',
-//                     order: 37,
-//                 },      
-//                   {
-//                     id: 38,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                          url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//                          backgroundColor: 'rgb(57 179 34)' ,
-//                     start: '2021-07-29',
-//                     order: 38,
-//                 },
-//                 {
-//                     id: 39,
-//                     title: '10:00am-11:00am  \n' +
-//                         'Beats with Code - Music Sections (Python)  \n' +
-//                         'Instr: Jen Lashley',
-//                          backgroundColor: 'rgb(43 34 179)' ,
-//                     start: '2021-08-02',
-//                     order: 39,
-//                 },
-//                 {
-//                     id: 40,
-//                     title: '12:00pm-02:00pm  \n' +
-//                         'Real Estate 101  \n' +
-//                         'Instr: Lisa Gillett',
-//                                     url: 'https://us02web.zoom.us/j/82540008284?pwd=cCs2WTFHVGd2a21zdEZiRzlRZlhRQT09',
-//     backgroundColor: 'rgb(179, 34, 54)' ,
-//                     start: '2021-08-02',
-//                     order: 40,
-//                 },
-//                 {
-//                     id: 41,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-08-02',
-//                     order: 41,
-//                 },
-//                 {
-//                     id: 42,
-//                     title: '2:30pm-4:30pm		 \n' +
-//                         'Build Your Own Website	\n' +
-//                         'Instr. Phillip Banks	',
-//                     url: 'https://us02web.zoom.us/j/82004783576?pwd=L3N4Y00zZXR1SkxJTlp0N2hiQjYvdz09',
-//      backgroundColor: 'rgb(196, 59, 208)' ,
-//                     start: '2021-08-03',
-//                     order: 42,
-//                 },
-//                 {
-//                     id: 43,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                     backgroundColor: 'rgb(57 179 34)' ,
-//                                 url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//                     start: '2021-08-03',
-//                     order: 43
-//                 },
-//                 {
-//                     id: 44,
-//                     title: '12:00pm-02:00pm  \n' +
-//                         'Real Estate 101  \n' +
-//                         'Instr: Lisa Gillett',
-//                                     url: 'https://us02web.zoom.us/j/82540008284?pwd=cCs2WTFHVGd2a21zdEZiRzlRZlhRQT09',
-//     backgroundColor: 'rgb(179, 34, 54)' ,
-//                     start: '2021-08-04',
-//                     order: 44,
-//                 },
-//                 {
-//                     id: 45,
-//                     title: '2:30pm-4:00pm	 \n' +
-//                         'Leadership Program \n' +
-//                         'Instr: Kandee Lewis 	',
-//               url: 'https://us02web.zoom.us/j/88601931318?pwd=SHhZZUExVm1NakYxd0lZVFcxL2lSdz09',
-//                     backgroundColor: '#e60094' ,
-//                     start: '2021-08-04',
-//                     order: 45,
-//                 },
-//                 {
-//                     id: 46,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-08-04',
-//                     order: 46,
-//                 },
-//                 {
-//                     id: 47,
-//                     title: '2:30pm-4:30pm		 \n' +
-//                         'Build Your Own Website	\n' +
-//                         'Instr. Phillip Banks	',
-//                     url: 'https://us02web.zoom.us/j/82004783576?pwd=L3N4Y00zZXR1SkxJTlp0N2hiQjYvdz09',
-//      backgroundColor: 'rgb(196, 59, 208)' ,
-//                     start: '2021-08-05',
-//                     order: 47,
-//                 },
-//                 {
-//                     id: 48,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                     backgroundColor: 'rgb(57 179 34)' ,
-//                                 url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//                     start: '2021-08-05',
-//                     order: 48
-//                 },
-//                 {
-//                     id: 49,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-08-09',
-//                     order: 49,
-//                 },
-//                 {
-//                     id: 50,
-//                     title: '2:30pm-4:30pm		 \n' +
-//                         'Build Your Own Website	\n' +
-//                         'Instr. Phillip Banks	',
-//                     url: 'https://us02web.zoom.us/j/82004783576?pwd=L3N4Y00zZXR1SkxJTlp0N2hiQjYvdz09',
-//      backgroundColor: 'rgb(196, 59, 208)' ,
-//                     start: '2021-08-10',
-//                     order: 50,
-//                 },
-//                 {
-//                     id: 51,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                     backgroundColor: 'rgb(57 179 34)' ,
-//                                 url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//                     start: '2021-08-10',
-//                     order: 51
-//                 },
-//                 {
-//                     id: 52,
-//                     title: '2:30pm-4:00pm	 \n' +
-//                         'Leadership Program \n' +
-//                         'Instr: Kandee Lewis 	',
-//                     url: 'https://us02web.zoom.us/j/88601931318?pwd=SHhZZUExVm1NakYxd0lZVFcxL2lSdz09',
-//                     backgroundColor: '#e60094' ,
-//                     start: '2021-08-11',
-//                     order: 52,
-//                 },
-//                 {
-//                     id: 53,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-08-11',
-//                     order: 53
-//                 },
-//                 {
-//                     id: 54,
-//                     title: '2:30pm-4:30pm		 \n' +
-//                         'Build Your Own Website	\n' +
-//                         'Instr. Phillip Banks	',
-//                     url: 'https://us02web.zoom.us/j/82004783576?pwd=L3N4Y00zZXR1SkxJTlp0N2hiQjYvdz09',
-//      backgroundColor: 'rgb(196, 59, 208)' ,
-//                     start: '2021-08-12',
-//                     order: 54,
-//                 },
-//                 {
-//                     id: 55,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                     backgroundColor: 'rgb(57 179 34)' ,
-//                                 url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//                     start: '2021-08-12',
-//                     order: 55
-//                 },
-//                 {
-//                     id: 56,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-08-16',
-//                     order: 56
-//                 },
-//                 {
-//                     id: 57,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                     backgroundColor: 'rgb(57 179 34)' ,
-//                                 url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//                     start: '2021-08-17',
-//                     order: 57
-//                 },
-//                 {
-//                     id: 58,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-08-18',
-//                     order: 58
-//                 },
-//                 {
-//                     id: 59,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Javascript for Kids  \n' +
-//                         'Instr: Cameron Smith',
-//                     backgroundColor: 'rgb(57 179 34)' ,
-//                                 url: 'https://us02web.zoom.us/j/84412523791?pwd=c0JEN2ROdDlwS29SZk1qOXp4TTc1Zz09',
-//                     start: '2021-08-19',
-//                     order: 59
-//                 },
-//                 {
-//                     id: 60,
-//                     title: '03:00pm-04:30pm  \n' +
-//                         'Let\'s Start the Conversation (Race Relations)  \n' +
-//                         'Instr: Judy Greenfeld',
-//     backgroundColor: '#920049' ,
-//                     start: '2021-08-22',
-//                     order: 60
-//                 },
-//                 {
-//                     id: 61,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-08-23',
-//                     order: 61
-//                 },
-//                 {
-//                     id: 62,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-08-25',
-//                     order: 62
-//                 },
-//                 {
-//                     id: 63,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Gritly High Tech Sales  \n' +
-//                         'Instr: David Lopez',
-//     backgroundColor: '#6a5f00' ,
-//                     start: '2021-08-30',
-//                     order: 63
-//                 },
-//                 {
-//                     id: 64,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-08-30',
-//                     order: 64
-//                 },
-//                 {
-//                     id: 65,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Gritly High Tech Sales  \n' +
-//                         'Instr: David Lopez',
-//     backgroundColor: '#6a5f00' ,
-//                     start: '2021-09-01',
-//                     order: 65
-//                 },
-//                 {
-//                     id: 66,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-09-01',
-//                     order: 66
-//                 },
-//                 {
-//                     id: 67,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Gritly High Tech Sales  \n' +
-//                         'Instr: David Lopez',
-//     backgroundColor: '#6a5f00' ,
-//                     start: '2021-09-06',
-//                     order: 67
-//                 },
-//                 {
-//                     id: 68,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-09-06',
-//                     order: 68
-//                 },
-//                 {
-//                     id: 69,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Gritly High Tech Sales  \n' +
-//                         'Instr: David Lopez',
-//     backgroundColor: '#6a5f00' ,
-//                     start: '2021-09-08',
-//                     order: 69
-//                 },
-//                 {
-//                     id: 70,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-09-08',
-//                     order: 70
-//                 },
-//                 {
-//                     id: 71,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Gritly High Tech Sales  \n' +
-//                         'Instr: David Lopez',
-//     backgroundColor: '#6a5f00' ,
-//                     start: '2021-09-13',
-//                     order: 71
-//                 },
-//                 {
-//                     id: 72,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-09-15',
-//                     order: 72
-//                 },
-                
-//                 {
-//                     id: 73,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Gritly High Tech Sales  \n' +
-//                         'Instr: David Lopez  \n' +
-//                         'Gritly continues through Nov 16, 2021',
-//     backgroundColor: '#6a5f00' ,
-//                     start: '2021-09-20',
-//                     order: 73
-//                 },
-//                 {
-//                     id: 74,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-09-20',
-//                     order: 74
-//                 },
-//                 {
-//                     id: 75,
-//                     title: '05:00pm-07:00pm  \n' +
-//                         'Gritly High Tech Sales  \n' +
-//                         'Instr: David Lopez  \n' +
-//                         'Gritly continues through Nov 16, 2021',
-//     backgroundColor: '#6a5f00' ,
-//                     start: '2021-09-22',
-//                     order: 75
-//                 },
-//                 {
-//                     id: 76,
-//                     title: '05:30pm-07:30pm  \n' +
-//                         'Landing Page Creation  \n' +
-//                         'Instr: Jayden Smith',
-//     backgroundColor: '#00a59f' ,
-//                     start: '2021-09-22',
-//                     order: 76
-//                 },
                 {
                     id: 77,
-                    title: '2:00pm-4:00pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'South LA Robotics Presents Champbots Competition  \n' +
-                        'Instr: Jen Lashley + Ravi ',
+                        'Instr: Coach Josh & Mia ',
     backgroundColor: 'rgb(43 34 179)' ,
-                    start: '2022-07-05',
+                    start: '2022-10-06',
                     order: 77
                 },
                 {
-                    id: 78,
-                    title: '4:00pm-6:00pm  \n' +
-                        'Chatbots For Change/Web Development  \n' +
-                        'Instr: Phillip Banks ',
-    backgroundColor: 'rgb(196, 59, 208)' ,
-                    start: '2022-07-05',
-                    order: 78
-                },
-                {
                     id: 79,
-                    title: '3:30pm-5:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
+                        'Instr: Phillip Banks, Cameron Smith & Ryan Burks ',
     backgroundColor: '#e60094' ,
-                    start: '2022-07-06',
+                    start: '2022-10-05',
                     order: 79
                 },
                 {
-                    id: 80,
-                    title: '10:00am-12:00pm  \n' +
-                        'Real Estate 100 \n' +
-                        'Instr: Lisa Gillett ',
-    backgroundColor: 'rgb(179, 34, 54)' ,
-                    start: '2022-07-07',
-                    order: 80
-                },
-                {
                     id: 81,
-                    title: '12:30pm-2:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'UX/UI \n' +
                         'Instr: Josh Sykes ',
     backgroundColor: '#00a59f' ,
-                    start: '2022-07-07',
+                    start: '2022-10-04',
                     order: 81
                 },
                 {
                     id: 82,
-                    title: '3:30pm-5:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
+                        'Instr: Phillip Banks, Cameron Smith & Ryan Burks ',
     backgroundColor: '#e60094' ,
-                    start: '2022-07-07',
+                    start: '2022-10-12',
                     order: 82
                 },
-    //             {
-    //                 id: 77,
-    //                 title: '2:00pm-4:00pm  \n' +
-    //                     'South LA Robotics Presents Champbots Competition  \n' +
-    //                     'Instr: Jen Lashley',
-    // backgroundColor: 'rgb(43 34 179)' ,
-    //                 start: '2022-07-05',
-    //                 order: 77
-    //             },
                 {
                     id: 83,
-                    title: '2:00pm-4:00pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'South LA Robotics Presents Champbots Competition  \n' +
-                        'Instr: Jen Lashley + Ravi',
+                        'Instr: Coach Josh & Mia',
     backgroundColor: 'rgb(43 34 179)' ,
-                    start: '2022-07-12',
+                    start: '2022-10-13',
                     order: 83
                 },
                 {
-                    id: 84,
-                    title: '4:00pm-6:00pm  \n' +
-                        'Chatbots For Change/Web Development  \n' +
-                        'Instr: Phillip Banks ',
-    backgroundColor: 'rgb(196, 59, 208)' ,
-                    start: '2022-07-12',
-                    order: 84
-                },
-                {
                     id: 85,
-                    title: '3:30pm-5:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
+                        'Instr: Phillip Banks, Cameron Smith & Ryan Burks ',
     backgroundColor: '#e60094' ,
-                    start: '2022-07-13',
+                    start: '2022-10-19',
                     order: 85
                 },
                 {
-                    id: 86,
-                    title: '10:00am-12:00pm  \n' +
-                        'Real Estate 100 \n' +
-                        'Instr: Lisa Gillett ',
-    backgroundColor: 'rgb(179, 34, 54)' ,
-                    start: '2022-07-14',
-                    order: 86
-                },
-                {
                     id: 87,
-                    title: '12:30pm-2:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'UX/UI \n' +
                         'Instr: Josh Sykes ',
     backgroundColor: '#00a59f' ,
-                    start: '2022-07-14',
+                    start: '2022-10-11',
                     order: 87
                 },
                 {
                     id: 88,
-                    title: '3:30pm-5:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
+                        'Instr: Phillip Banks, Cameron Smith & Ryan Burks ',
     backgroundColor: '#e60094' ,
-                    start: '2022-07-14',
+                    start: '2022-10-26',
                     order: 88
                 },
                 {
                     id: 89,
-                    title: '2:00pm-4:00pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'South LA Robotics Presents Champbots Competition  \n' +
-                        'Instr: Jen Lashley + Ravi',
+                        'Instr: Coach Josh & Mia',
     backgroundColor: 'rgb(43 34 179)' ,
-                    start: '2022-07-19',
+                    start: '2022-10-20',
                     order: 89
                 },
                 {
-                    id: 90,
-                    title: '4:00pm-6:00pm  \n' +
-                        'Chatbots For Change/Web Development  \n' +
-                        'Instr: Phillip Banks ',
-    backgroundColor: 'rgb(196, 59, 208)' ,
-                    start: '2022-07-19',
-                    order: 90
-                },
-                {
                     id: 91,
-                    title: '3:30pm-5:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
+                        'Instr: Phillip Banks, Cameron Smith & Ryan Burks ',
     backgroundColor: '#e60094' ,
-                    start: '2022-07-20',
+                    start: '2022-11-02',
                     order: 91
                 },
                 {
-                    id: 92,
-                    title: '10:00am-12:00pm  \n' +
-                        'Real Estate 100 \n' +
-                        'Instr: Lisa Gillett ',
-    backgroundColor: 'rgb(179, 34, 54)' ,
-                    start: '2022-07-21',
-                    order: 92
-                },
-                {
                     id: 93,
-                    title: '12:30pm-2:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'UX/UI \n' +
                         'Instr: Josh Sykes ',
     backgroundColor: '#00a59f' ,
-                    start: '2022-07-21',
+                    start: '2022-10-18',
                     order: 93
                 },
                 {
                     id: 94,
-                    title: '3:30pm-5:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
+                        'Instr: Phillip Banks, Cameron Smith & Ryan Burks ',
     backgroundColor: '#e60094' ,
-                    start: '2022-07-21',
+                    start: '2022-11-09',
                     order: 94
                 },
                 {
                     id: 95,
-                    title: '2:00pm-4:00pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'South LA Robotics Presents Champbots Competition  \n' +
-                        'Instr: Jen Lashley + Ravi',
+                        'Instr: Coach Josh & Mia',
     backgroundColor: 'rgb(43 34 179)' ,
-                    start: '2022-07-26',
+                    start: '2022-10-27',
                     order: 95
                 },
                 {
-                    id: 96,
-                    title: '4:00pm-6:00pm  \n' +
-                        'Chatbots For Change/Web Development  \n' +
-                        'Instr: Phillip Banks ',
-    backgroundColor: 'rgb(196, 59, 208)' ,
-                    start: '2022-07-26',
-                    order: 96
-                },
-                {
                     id: 97,
-                    title: '3:30pm-5:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
+                        'Instr: Phillip Banks, Cameron Smith & Ryan Burks ',
     backgroundColor: '#e60094' ,
-                    start: '2022-07-27',
+                    start: '2022-11-16',
                     order: 97
                 },
                 {
-                    id: 98,
-                    title: '10:00am-12:00pm  \n' +
-                        'Real Estate 100 \n' +
-                        'Instr: Lisa Gillett ',
-    backgroundColor: 'rgb(179, 34, 54)' ,
-                    start: '2022-07-28',
-                    order: 98
-                },
-                {
                     id: 99,
-                    title: '12:30pm-2:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'UX/UI \n' +
                         'Instr: Josh Sykes ',
     backgroundColor: '#00a59f' ,
-                    start: '2022-07-28',
+                    start: '2022-10-25',
                     order: 99
                 },
                 {
-                    id: 100,
-                    title: '3:30pm-5:30pm  \n' +
-                        'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
-    backgroundColor: '#e60094' ,
-                    start: '2022-07-28',
-                    order: 100
-                },
-                {
-                    id: 101,
-                    title: '12:00pm-2:00pm  \n' +
-                        'Content Creation \n' +
-                        'Instr: Miesha Robinson ',
-    backgroundColor: '#6a5f00' ,
-                    start: '2022-08-02',
-                    order: 101
-                },
-                {
                     id: 102,
-                    title: '2:00pm-4:00pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'South LA Robotics Presents Champbots Competition  \n' +
-                        'Instr: Jen Lashley + Ravi',
+                        'Instr: Coach Josh & Mia',
     backgroundColor: 'rgb(43 34 179)' ,
-                    start: '2022-08-02',
+                    start: '2022-11-03',
                     order: 102
                 },
                 {
-                    id: 103,
-                    title: '4:00pm-6:00pm  \n' +
-                        'Chatbots For Change/Web Development  \n' +
-                        'Instr: Phillip Banks ',
-    backgroundColor: 'rgb(196, 59, 208)' ,
-                    start: '2022-08-02',
-                    order: 103
-                },
-                {
-                    id: 104,
-                    title: '3:30pm-5:30pm  \n' +
-                        'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
-    backgroundColor: '#e60094' ,
-                    start: '2022-08-03',
-                    order: 104
-                },
-                {
                     id: 105,
-                    title: '12:30pm-2:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'UX/UI \n' +
                         'Instr: Josh Sykes ',
     backgroundColor: '#00a59f' ,
-                    start: '2022-08-04',
+                    start: '2022-11-01',
                     order: 105
                 },
                 {
-                    id: 106,
-                    title: '3:30pm-5:30pm  \n' +
-                        'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
-    backgroundColor: '#e60094' ,
-                    start: '2022-08-04',
-                    order: 106
-                },
-                {
-                    id: 107,
-                    title: '12:00pm-2:00pm  \n' +
-                        'Content Creation \n' +
-                        'Instr: Miesha Robinson ',
-    backgroundColor: '#6a5f00' ,
-                    start: '2022-08-09',
-                    order: 107
-                },
-                {
                     id: 108,
-                    title: '2:00pm-4:00pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'South LA Robotics Presents Champbots Competition  \n' +
-                        'Instr: Jen Lashley + Ravi',
+                        'Instr: Coach Josh & Mia',
     backgroundColor: 'rgb(43 34 179)' ,
-                    start: '2022-08-09',
+                    start: '2022-11-10',
                     order: 108
                 },
                 {
-                    id: 109,
-                    title: '4:00pm-6:00pm  \n' +
-                        'Chatbots For Change/Web Development  \n' +
-                        'Instr: Phillip Banks ',
-    backgroundColor: 'rgb(196, 59, 208)' ,
-                    start: '2022-08-09',
-                    order: 109
-                },
-                {
-                    id: 110,
-                    title: '3:30pm-5:30pm  \n' +
-                        'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
-    backgroundColor: '#e60094' ,
-                    start: '2022-08-10',
-                    order: 110
-                },
-                {
                     id: 111,
-                    title: '12:30pm-2:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'UX/UI \n' +
                         'Instr: Josh Sykes ',
     backgroundColor: '#00a59f' ,
-                    start: '2022-08-11',
+                    start: '2022-11-08',
                     order: 111
                 },
                 {
-                    id: 112,
-                    title: '3:30pm-5:30pm  \n' +
-                        'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
-    backgroundColor: '#e60094' ,
-                    start: '2022-08-11',
-                    order: 112
-                },
-                {
-                    id: 113,
-                    title: '12:00pm-2:00pm  \n' +
-                        'Content Creation \n' +
-                        'Instr: Miesha Robinson ',
-    backgroundColor: '#6a5f00' ,
-                    start: '2022-08-16',
-                    order: 113
-                },
-                {
-                    id: 114,
-                    title: '3:30pm-5:30pm  \n' +
-                        'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
-    backgroundColor: '#e60094' ,
-                    start: '2022-08-17',
-                    order: 114
-                },
-                {
-                    id: 115,
-                    title: '3:30pm-5:30pm  \n' +
-                        'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
-    backgroundColor: '#e60094' ,
-                    start: '2022-08-18',
-                    order: 115
-                },
-                {
                     id: 121,
-                    title: '12:30pm-2:30pm  \n' +
+                    title: '4:00pm-6:00pm  \n' +
                         'UX/UI \n' +
                         'Instr: Josh Sykes ',
     backgroundColor: '#00a59f' ,
-                    start: '2022-08-18',
+                    start: '2022-11-15',
                     order: 121
                 },
                 {
-                    id: 122,
-                    title: '12:30pm-2:30pm  \n' +
-                        'UX/UI \n' +
-                        'Instr: Josh Sykes ',
-    backgroundColor: '#00a59f' ,
-                    start: '2022-08-25',
-                    order: 122
-                },
-                {
-                    id: 116,
-                    title: '12:00pm-2:00pm  \n' +
-                        'Content Creation \n' +
-                        'Instr: Miesha Robinson ',
-    backgroundColor: '#6a5f00' ,
-                    start: '2022-08-23',
-                    order: 116
-                },
-                {
-                    id: 117,
-                    title: '3:30pm-5:30pm  \n' +
-                        'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
-    backgroundColor: '#e60094' ,
-                    start: '2022-08-24',
-                    order: 117
-                },
-                {
-                    id: 118,
-                    title: '3:30pm-5:30pm  \n' +
-                        'Coding Like A Boss \n' +
-                        'Instr: Cassie Betts ',
-    backgroundColor: '#e60094' ,
-                    start: '2022-08-25',
-                    order: 118
-                },
-                {
-                    id: 119,
-                    title: '12:00pm-2:00pm  \n' +
-                        'Content Creation \n' +
-                        'Instr: Miesha Robinson ',
-    backgroundColor: '#6a5f00' ,
-                    start: '2022-08-30',
-                    order: 119
+                    id: 108,
+                    title: '4:00pm-6:00pm  \n' +
+                        'South LA Robotics Presents Champbots Competition  \n' +
+                        'Instr: Coach Josh & Mia',
+    backgroundColor: 'rgb(43 34 179)' ,
+                    start: '2022-11-17',
+                    order: 108
                 },
                 {
                     id: 120,
-                    title: '12:00pm-2:00pm  \n' +
-                        'Content Creation \n' +
-                        'Instr: Miesha Robinson ',
+                    title: '4:30pm-6:30pm  \n' +
+                        'Music Production: Learn Pro Tools with the Pros \n' +
+                        'Instr: Al Rich + G Nett ',
     backgroundColor: '#6a5f00' ,
-                    start: '2022-09-06',
+                    start: '2022-10-06',
                     order: 120
                 },
-    //             {
-    //                 id: 79,
-    //                 title: '2:00pm-4:00pm  \n' +
-    //                     'South LA Robotics Presents Champbots Competition  \n' +
-    //                     'Instr: Jen Lashley',
-    // backgroundColor: 'rgb(43 34 179)' ,
-    //                 start: '2022-07-19',
-    //                 order: 79
-    //             },
-    //             {
-    //                 id: 80,
-    //                 title: '2:00pm-4:00pm  \n' +
-    //                     'South LA Robotics Presents Champbots Competition  \n' +
-    //                     'Instr: Jen Lashley',
-    // backgroundColor: 'rgb(43 34 179)' ,
-    //                 start: '2022-07-26',
-    //                 order: 80
-    //             },
-    //             {
-    //                 id: 81,
-    //                 title: '2:00pm-4:00pm  \n' +
-    //                     'South LA Robotics Presents Champbots Competition  \n' +
-    //                     'Instr: Jen Lashley',
-    // backgroundColor: 'rgb(43 34 179)' ,
-    //                 start: '2022-08-02',
-    //                 order: 81
-    //             },
-    //             {
-    //                 id: 82,
-    //                 title: '2:00pm-4:00pm  \n' +
-    //                     'South LA Robotics Presents Champbots Competition  \n' +
-    //                     'Instr: Jen Lashley',
-    // backgroundColor: 'rgb(43 34 179)' ,
-    //                 start: '2022-08-09',
-    //                 order: 82
-    //             },
-    //             {
-    //                 id: 83,
-    //                 title: '10:00am-12:00pm  \n' +
-    //                     'Real Estate 100  \n' +
-    //                     'Instr: Lisa Gillett',
-    //                  backgroundColor: 'rgb(179, 34, 54)' ,
-    //                 start: '2022-07-07',
-    //                 order: 83
-    //             },
-                // {
-                //     id: 84,
-                //     title: '10:00am-12:00pm  \n' +
-                //         'Real Estate 100  \n' +
-                //         'Instr: Lisa Gillett',
-                //      backgroundColor: 'rgb(179, 34, 54)' ,
-                //     start: '2022-07-14',
-                //     order: 84
-                // },
-                // {
-                //     id: 85,
-                //     title: '10:00am-12:00pm  \n' +
-                //         'Real Estate 100  \n' +
-                //         'Instr: Lisa Gillett',
-                //      backgroundColor: 'rgb(179, 34, 54)' ,
-                //     start: '2022-07-21',
-                //     order: 85
-                // },
-                // {
-                //     id: 86,
-                //     title: '10:00am-12:00pm  \n' +
-                //         'Real Estate 100  \n' +
-                //         'Instr: Lisa Gillett',
-                //      backgroundColor: 'rgb(179, 34, 54)' ,
-                //     start: '2022-07-28',
-                //     order: 86
-                // },
-    //             {
-    //                 id: 87,
-    //                 title: '12:00pm-02:00pm  \n' +
-    //                     'Content Creation Bootcamp  \n' +
-    //                     'Instr: Miesha Robinson',
-    //                  backgroundColor: '#00a59f' ,
-    //                 start: '2022-08-02',
-    //                 order: 87
-    //             },
-    //             {
-    //                 id: 88,
-    //                 title: '12:00pm-02:00pm  \n' +
-    //                     'Content Creation Bootcamp  \n' +
-    //                     'Instr: Miesha Robinson',
-    //                  backgroundColor: '#00a59f' ,
-    //                 start: '2022-08-09',
-    //                 order: 88
-    //             },
-    //             {
-    //                 id: 89,
-    //                 title: '12:00pm-02:00pm  \n' +
-    //                     'Content Creation Bootcamp  \n' +
-    //                     'Instr: Miesha Robinson',
-    //                  backgroundColor: '#00a59f' ,
-    //                 start: '2022-08-16',
-    //                 order: 89
-    //             },
-    //             {
-    //                 id: 90,
-    //                 title: '12:00pm-02:00pm  \n' +
-    //                     'Content Creation Bootcamp  \n' +
-    //                     'Instr: Miesha Robinson',
-    //                  backgroundColor: '#00a59f' ,
-    //                 start: '2022-08-23',
-    //                 order: 90
-    //             },
-    //             {
-    //                 id: 91,
-    //                 title: '12:00pm-02:00pm  \n' +
-    //                     'Content Creation Bootcamp  \n' +
-    //                     'Instr: Miesha Robinson',
-    //                  backgroundColor: '#00a59f' ,
-    //                 start: '2022-08-30',
-    //                 order: 91
-    //             },
-    //             {
-    //                 id: 92,
-    //                 title: '12:00pm-02:00pm  \n' +
-    //                     'Content Creation Bootcamp  \n' +
-    //                     'Instr: Miesha Robinson',
-    //                  backgroundColor: '#00a59f' ,
-    //                 start: '2022-09-06',
-    //                 order: 92
-    //             },
-    //             {
-    //                 id: 93,
-    //                 title: '4:00pm-6:00pm  \n' +
-    //                     'Facebook/Meta EFTW (Engineer For The Week)  \n' +
-    //                     'Instr: ',
-    // backgroundColor: 'rgb(43 34 179)' ,
-    //                 start: '2022-07-05',
-    //                 order: 93
-    //             },
-    //             {
-    //                 id: 94,
-    //                 title: '4:00pm-6:00pm  \n' +
-    //                     'Facebook/Meta EFTW (Engineer For The Week)  \n' +
-    //                     'Instr: ',
-    // backgroundColor: 'rgb(43 34 179)' ,
-    //                 start: '2022-07-12',
-    //                 order: 94
-    //             },
-    //             {
-    //                 id: 95,
-    //                 title: '4:00pm-6:00pm  \n' +
-    //                     'Facebook/Meta EFTW (Engineer For The Week)  \n' +
-    //                     'Instr: ',
-    // backgroundColor: 'rgb(43 34 179)' ,
-    //                 start: '2022-07-19',
-    //                 order: 95
-    //             },
-    //             {
-    //                 id: 96,
-    //                 title: '4:00pm-6:00pm  \n' +
-    //                     'Facebook/Meta EFTW (Engineer For The Week)  \n' +
-    //                     'Instr: ',
-    // backgroundColor: 'rgb(43 34 179)' ,
-    //                 start: '2022-07-26',
-    //                 order: 96
-    //             },
-    //             {
-    //                 id: 97,
-    //                 title: '4:00pm-6:00pm  \n' +
-    //                     'Facebook/Meta EFTW (Engineer For The Week)  \n' +
-    //                     'Instr: ',
-    // backgroundColor: 'rgb(43 34 179)' ,
-    //                 start: '2022-08-02',
-    //                 order: 97
-    //             },
-    //             {
-    //                 id: 98,
-    //                 title: '4:00pm-6:00pm  \n' +
-    //                     'Facebook/Meta EFTW (Engineer For The Week)  \n' +
-    //                     'Instr: ',
-    // backgroundColor: 'rgb(43 34 179)' ,
-    //                 start: '2022-08-09',
-    //                 order: 98
-    //             },
-         
+                {
+                    id: 120,
+                    title: '4:30pm-6:30pm  \n' +
+                        'Music Production: Learn Pro Tools with the Pros \n' +
+                        'Instr: Al Rich + G Nett ',
+    backgroundColor: '#6a5f00' ,
+                    start: '2022-10-13',
+                    order: 120
+                },
+                {
+                    id: 120,
+                    title: '4:30pm-6:30pm  \n' +
+                        'Music Production: Learn Pro Tools with the Pros \n' +
+                        'Instr: Al Rich + G Nett ',
+    backgroundColor: '#6a5f00' ,
+                    start: '2022-10-20',
+                    order: 120
+                },
+                {
+                    id: 120,
+                    title: '4:30pm-6:30pm  \n' +
+                        'Music Production: Learn Pro Tools with the Pros \n' +
+                        'Instr: Al Rich + G Nett ',
+    backgroundColor: '#6a5f00' ,
+                    start: '2022-10-27',
+                    order: 120
+                },
+                {
+                    id: 120,
+                    title: '4:30pm-6:30pm  \n' +
+                        'Music Production: Learn Pro Tools with the Pros \n' +
+                        'Instr: Al Rich + G Nett ',
+    backgroundColor: '#6a5f00' ,
+                    start: '2022-11-03',
+                    order: 120
+                },
+                {
+                    id: 120,
+                    title: '4:30pm-6:30pm  \n' +
+                        'Music Production: Learn Pro Tools with the Pros \n' +
+                        'Instr: Al Rich + G Nett ',
+    backgroundColor: '#6a5f00' ,
+                    start: '2022-11-10',
+                    order: 120
+                },
+                {
+                    id: 120,
+                    title: '4:30pm-6:30pm  \n' +
+                        'Music Production: Learn Pro Tools with the Pros \n' +
+                        'Instr: Al Rich + G Nett ',
+    backgroundColor: '#6a5f00' ,
+                    start: '2022-11-17',
+                    order: 120
+                },
             ],
             eventOrder: 'order'
         });
