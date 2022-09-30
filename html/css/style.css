@@ -1524,7 +1524,7 @@ footer h3 {
 .about_bg {
   background: url(../images/codex.jpg) center/cover no-repeat;
   -webkit-background-size: cover;
-  background-size: cover; }
+  background-size: cover; background-position: center center; }
   .about_bg h1 {
     text-align: center;
     color: #fff;
