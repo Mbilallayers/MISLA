@@ -4000,7 +4000,9 @@ div.panel {
 }
 
 
-
+.fc-daygrid-event {
+  min-height: 90px;
+}
 
 
 
