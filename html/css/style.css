@@ -1328,7 +1328,7 @@ footer {
   .sitemap ul li {
     list-style: none; }
     .sitemap ul li a {
-      color: #292b2c
+      color: #292b2c;
       font-size: 17px;
       line-height: 2; }
     .sitemap ul li :hover {
@@ -2000,7 +2000,7 @@ select.form-control.custom-select {
     border-bottom: 1px solid #f37425; }
     .admission_rating li span {
       float: right; }
-  .admission_rating li:nth-child(11)
+  .admission_rating li:nth-child(11) {
     border: none; }
   .admission_rating li:last-child {
     border: none; }
@@ -3986,3 +3986,26 @@ div.panel {
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease; } }
 /*# sourceMappingURL=style.css.map */
+
+.sponsors-logos {
+  /* padding: 50px 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.sponsors-logos img {
+  max-width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
