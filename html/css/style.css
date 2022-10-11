@@ -217,7 +217,7 @@ Author:
   right: 0;
   top: 0; }
 .bbttc-page.navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: #f37425;
 }
 .nav-logo {
   margin: 0 !important; }
@@ -265,7 +265,7 @@ Author:
   border: none; }
 
 .dropdown-item {
-  color: #2d2d2d;
+  color: #f37425;
   padding: 5px 1.5rem; }
 
 .dropdown-item.active,
@@ -1813,7 +1813,7 @@ select.form-control.custom-select {
     -o-object-fit: contain;
     object-fit: contain;
     width: 100%;
-    max-height: 300px;    
+    max-height: 300px;
     min-height: 300px;
 }
 .course_box img {
@@ -4003,11 +4003,3 @@ div.panel {
 .fc-daygrid-event {
   min-height: 90px;
 }
-
-
-
-
-
-
-
-
